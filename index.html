@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript on Earth</title>
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+		<script src="scripts/main.js" defer></script>
+		<link href="styles/mystyle.css" rel="stylesheet" type="text/css">
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="body-container">
+			<div class="header">
+				<h1>Destination details</h1>
+			</div>
+			<div class="station-container">
+				<div class="station">
+					<h3>Kennedy Space Center</h3>
+					<div class="weather-info">
+						<img id="station1-img" class="icon">
+						<div class="weather-description">
+							<span id="desc1"></span>
+							<span id="temp1"></span>
+						</div>
+					</div>
+				</div>
+				<div class="station">
+					<h3> Nasa Research Center</h3>
+					<div class="weather-info">
+						<img id="station2-img" class="icon">
+						<div class="weather-description">
+							<span id="desc2"></span>
+							<span id="temp2"></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<button id="fun-button">Where to go for fun?</button>
+			<div id="map">
+				
+			</div>
+		</div>
+	</body>
+</html>`	
